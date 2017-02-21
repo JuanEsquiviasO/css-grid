@@ -2,7 +2,7 @@
 
 ##Install in your browser this support for CSS Grid
 
-* [Experiment in Chrome] (chrome://flags/enable-experimental-web-platform-features)
+* [Experiment in Chrome whith chrome://flags/enable-experimental-web-platform-features]
 
 ## Notes
 * [CSS Grid Layout Module - W3C](https://www.w3.org/TR/css3-grid-layout/)
