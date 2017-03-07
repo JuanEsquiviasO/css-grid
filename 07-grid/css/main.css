@@ -1,0 +1,61 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main {
+	font-family: sans-serif;
+	font-size: 20px;
+	width: 90%;
+	min-height: 500px;
+	border: 1px solid gray;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr .1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-areas: "cabecera cabecera cabecera cabecera cabecera"
+	"contenido contenido contenido . lateral"
+	"pie pie pie pie pie";
+}
+
+section {
+	background-color: #DC3522;
+	border: 2px solid black;
+	color: #D9CB9E;
+	font-family: sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+}
+
+.lateral {
+	grid-area: lateral;
+}
+
+.contenido {
+	grid-area: contenido;
+}
+
+.cabecera {
+	grid-area: cabecera;
+}
+
+.pie {
+	grid-area: pie;
+}
